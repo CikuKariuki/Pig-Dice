@@ -14,7 +14,9 @@ button{
 #title{
   text-align: center;
   font-size: 55pt;
-  color: #fff;
+  color: #000;
+  font-weight: bolder;
+  font-style: oblique;
 }
 img{
   height: 130px;
@@ -27,4 +29,6 @@ body{
   background-color: #000;
   border-radius: 16px;
   box-shadow: 5px 8px 10px #00acc1;
+  background-image: url("https://media1.tenor.com/images/c0ae5cdc014e75b7b67823dd8db70f7e/tenor.gif?itemid=8474306");
+  opacity: 0.5;
 }
