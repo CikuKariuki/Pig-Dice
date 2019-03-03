@@ -1,22 +1,22 @@
-### PIG DICE GAME
+## PIG DICE GAME
 
-## Description
+### Description
 
 This is a dice rolling game referred to as pig dice. Minimum number of players is 2.
 
-## Requirements
+### Requirements
 
-* atom or Visual studio
+* Atom or Visual studio
 
 
-## Technologies Used
+### Technologies Used
 HTML
 CSS
 JAVASCRIPT
 JQUERY
 
 
-## BDD
+### BDD
 | BEHAVIOR. This program should handle    | INPUT. When it receives    |  OUTPUT. It should return. |
 | :------------- | :------------- | :--------------- |
 | Rolling dice     | dice number:2,3,4,5,6    |records number got and adds to previous output.|
@@ -24,11 +24,11 @@ JQUERY
 | Addition to 100 points| Points that add up to 100|  Player x has won!|
 
 
-## Known bugs
+### Known bugs
 I do not know of any existing bugs.
 
 
-## Contact
+### Contact
 sheekokariuki@gmail.com
 
 ### License
