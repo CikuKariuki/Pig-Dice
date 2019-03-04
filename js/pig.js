@@ -1,25 +1,18 @@
-$("document").ready(function(){
-    $(".p2").hide();
-  })
+// $(document).ready(function(){
+//     $(".p2").hide();
+//   });
+$(document).ready(function(){
 
-  function Players(name){
-    this.name=name;
-  }
-  var start = function () {
-  var player1=$("#play1").val();
-  var player2=$("#play2").val();
-  var playOne= new Player(player1);
-  var playTwo= new Player(player2);
+
+  $("button#start").click(function() {
+  var player1=$("input#play1").val();
+  var player2=$("input#play2").val();
+  $("#1show").text(player1);
+  $("#2show").text(player2);
   $(".p1").hide();
   $(".p2").show();
 
-  // if(player1 && player2){
-  //   console.log(player1,player2)
-  //   $("#play1").text(playOne);
-  //   $("#play2").text(playTwo);
-
-  // }else{alert ("Please Enter Player Name")}
-}
+});
 
 
 // $("button#playbutton").click(function(){
@@ -29,3 +22,4 @@ $("document").ready(function(){
 //
 //   dice.innerHTML=die;
 // })
+});
