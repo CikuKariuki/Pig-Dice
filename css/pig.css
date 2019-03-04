@@ -2,6 +2,15 @@ button{
   width:200px;
   height:50px;
   margin-top: 200px;
+  width: 62px;
+  height: 62px;
+  background: #f48fb1;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 16px;
+  margin-left: 40%;
+  margin-top: 20%;
 }
 .buttons{
   background-color:#f8bbd0;
@@ -34,20 +43,7 @@ body{
   background-image: url("https://media1.tenor.com/images/c0ae5cdc014e75b7b67823dd8db70f7e/tenor.gif?itemid=8474306");
   opacity: 0.7;
 }
-/* #status{
-  clear: inherit;
-} */
-#dice{
-  width: 62px;
-  height: 62px;
-  background: #f48fb1;
-  padding: 10px;
-  text-align: center;
-  font-size: 20px;
-  border-radius: 16px;
-  margin-left: 40%;
-  margin-top: 20%;
-}
+
 .p2{
 display: none;
 }
@@ -61,7 +57,10 @@ display: none;
   font-size: 30px;
   font-family: cursive;
 }
-#submit{
-  margin-left: 10px;
-
+#start{
+  margin-left: 130px;
+  margin-top: 20px;
+}
+#playbutton2, #hold2{
+  display: none;
 }

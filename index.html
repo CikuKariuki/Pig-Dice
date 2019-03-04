@@ -39,7 +39,10 @@
           <div class="well">
             <h1 id="1show"></h1>
             <img src="images/icons8-anonymous-mask-96.png" alt="Mask image"><br>
-            <button type="button" name="button">0</button>
+            <button type="button" class="buttons" id="playbutton1" onclick="trial1()">Roll</button>
+            <button type="button" class="buttons" id="hold1">Hold</button>
+            <button type="button" name="button" id="game1">0</button>
+            <h2>SCORE: <span id="score1"></span></h2>
           </div>
         </div>
         <div class="col-md-4">
@@ -53,16 +56,17 @@
               <li>The <b>WINNER</b> is the first player to score 100 or more points.</li>
             </ol>
 
-            <div class="rolldie" id="dice">0 </div>
-            <button type="button" class="buttons" id="playbutton">Roll</button>
-            <button type="button" class="buttons" id="hold">Hold</button>
+            <div class="rolldie" id="dice"> </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="well">
             <h1 id="2show"></h1>
             <img src="images/icons8-anonymous-mask-96 (1).png" alt="Mask image"><br>
-            <button type="button" name="button">0</button>
+            <button type="button" class="buttons" id="playbutton2" onclick="trial2()">Roll</button>
+            <button type="button" class="buttons" id="hold2">Hold</button>
+            <button type="button" name="button" id="game2">0</button>
+            <h2>SCORE: <span id="score2"></span> </h2>
           </div>
         </div>
       </div>
