@@ -9,6 +9,21 @@
     <title>Pig Dice </title>
   </head>
   <body>
+<div class="p1" >
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Pig Dice</h1>
+    </div>
+
+      <label for="player1" class="color">Player 1</label>
+      <input type="text" id="play1"class="size" placeholder="add name" autocomplete="on"></input><br>
+      <label for="player2" class="color">Player 2</label>
+      <input type="text" id="play2" class="size" placeholder="add name" autocomplete="on"></input><br>
+      <button type="button" class ="btn btn-info" id="submit" onclick="start()">Start</button>
+    </div>
+  </div>
+
+    <div class="p2">
     <div class="jumbotron">
       <h1 id="title">Pig Dice</h1>
     </div>
@@ -32,11 +47,9 @@
               <li>The <b>WINNER</b> is the first player to score 100 or more points.</li>
             </ol>
 
-            <div class="rolldie" id="dice">
-
-            </div>
-            <button type="button" name="button" id="playbutton">Roll</button>
-            <h2 id="status" ></h2>
+            <div class="rolldie" id="dice">0 </div>
+            <button type="button" class="buttons" id="playbutton">Roll</button>
+            <button type="button" class="buttons" id="hold">Hold</button>
           </div>
         </div>
         <div class="col-md-4">
@@ -47,7 +60,7 @@
           </div>
         </div>
       </div>
-
+    </div>
     </div>
   </body>
 </html>
