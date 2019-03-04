@@ -6,17 +6,19 @@ $("document").ready(function(){
     this.name=name;
   }
   var start = function () {
-  var player1=$("play1").val();
-  var player2=$("play2").val();
-  if(player1 && player2){
-    document.write(player1,player2)
-    var playOne= new Player(player1);
-    var playTwo= new Player(player2);
-    $("#play1").text(playOne);
-    $("#play2").text(playTwo);
-    $(".p1").hide();
-    $(".p2").show();
-  }else{alert ("Please Enter Player Name")}
+  var player1=$("#play1").val();
+  var player2=$("#play2").val();
+  var playOne= new Player(player1);
+  var playTwo= new Player(player2);
+  $(".p1").hide();
+  $(".p2").show();
+
+  // if(player1 && player2){
+  //   console.log(player1,player2)
+  //   $("#play1").text(playOne);
+  //   $("#play2").text(playTwo);
+
+  // }else{alert ("Please Enter Player Name")}
 }
 
 
