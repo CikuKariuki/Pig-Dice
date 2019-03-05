@@ -25,7 +25,8 @@ JQUERY
 
 
 ### Known bugs
-I do not know of any existing bugs.
+The roll button does not erase data when player rolls 1.
+
 
 
 ### Contact
