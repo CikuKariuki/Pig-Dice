@@ -66,6 +66,7 @@ display: none;
   margin-left: 130px;
   margin-top: 20px;
   width: 200px;
+  border: 2px solid black;
 }
 #playbutton2, #hold2{
   display: none;
@@ -74,4 +75,12 @@ display: none;
   height: 100%;
   background-image: url("https://www.awesomedice.com/image/cache/data/7%20dice%20set/pink-glow-12d6-dice-600x600.jpg");
   background-size: cover;
+}
+.font{
+  font-size: 100pt;
+  color: #fff;
+  text-align: center;
+}
+#play2, #play1{
+  box-shadow: 5px 8px 5px #00acc1;
 }
