@@ -1,3 +1,4 @@
+//User logic
 $(document).ready(function(){
 
 
@@ -9,22 +10,35 @@ $(document).ready(function(){
   $(".p1").hide();
   $(".p2").show();
 });
- $("#hold1").click(function(){
-   turnChange();
- });
- $("#hold2").click(function(){
-   turnChange();
- });
+$("#hold1").click(function(){
+    turnChange();
+
 });
+$("#hold2").click(function(){
+  turnChange();
+
+});
+});
+
+//Business logic
 function randomNum(){
 return Math.floor(Math.random ()*6)+1;
 }
+
 var inScore = 0;
- function trial1(){
+  function trial1(){
    var random=randomNum();
    document.getElementById("game1").innerHTML=random;
    var finalScore = inScore += random;
+   if (random===1){
+     finalScore=0;
+     turnChange();
+   }
+   if(finalScore>99){
+     alert("We have a WINNER!!")
+   }
     document.getElementById('score1').innerHTML=finalScore;
+
   }
 
  var firstScore=0;
@@ -32,18 +46,21 @@ var inScore = 0;
    var random=randomNum();
    document.getElementById("game2").innerHTML=random;
    var finalScore = firstScore += random;
+   if (random===1){
+     finalScore=0;
+     turnChange();
+   }
+   if(finalScore>99){
+     alert("We have a WINNER!!")
+   }
      document.getElementById('score2').innerHTML=finalScore;
+
  }
+
+ //User logic
  function turnChange(){
    $("#playbutton1").toggle();
    $("#hold1").toggle();
    $("#playbutton2").toggle();
    $("#hold2").toggle();
  }
-function addArray(array){
-  var scoreRound = 0;
-  for(var i =0; i<array.length; i++){
-    scoreRound+=array[i];
-  }
-  return scoreRound;
-}

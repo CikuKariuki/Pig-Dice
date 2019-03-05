@@ -1,3 +1,6 @@
+html{
+  height: 100%;
+}
 button{
   width:200px;
   height:50px;
@@ -35,6 +38,8 @@ img{
 }
 body{
   background-color: #000;
+  background-size: cover;
+  height: 100%;
 }
 .jumbotron{
   background-color: #000;
@@ -60,7 +65,13 @@ display: none;
 #start{
   margin-left: 130px;
   margin-top: 20px;
+  width: 200px;
 }
 #playbutton2, #hold2{
   display: none;
+}
+.p1{
+  height: 100%;
+  background-image: url("https://www.awesomedice.com/image/cache/data/7%20dice%20set/pink-glow-12d6-dice-600x600.jpg");
+  background-size: cover;
 }
