@@ -12,6 +12,9 @@ $(document).ready(function(){
  $("#hold1").click(function(){
    turnChange();
  });
+ $("#hold2").click(function(){
+   turnChange();
+ });
 });
 function randomNum(){
 return Math.floor(Math.random ()*6)+1;
@@ -37,3 +40,10 @@ var inScore = 0;
    $("#playbutton2").toggle();
    $("#hold2").toggle();
  }
+function addArray(array){
+  var scoreRound = 0;
+  for(var i =0; i<array.length; i++){
+    scoreRound+=array[i];
+  }
+  return scoreRound;
+}
